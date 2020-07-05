@@ -1,0 +1,9 @@
+{
+  "restartable": "rs",
+  "legacyWatch": true,
+  "watch": ["./dist"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js"
+}

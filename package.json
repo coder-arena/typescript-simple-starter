@@ -1,0 +1,52 @@
+{
+  "name": "typescript-simple-starter",
+  "version": "0.0.1-dev",
+  "description": "Boilerplate para novos projetos com TypeScript.",
+  "main": "./dist/bin/www.js",
+  "engines": {
+    "node": ">=13.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --ext .ts,.js",
+    "format": "npx prettier '**/*.ts' '**/*.js' --write",
+    "prebuild": "npx rimraf ./dist",
+    "build": "npx tsc",
+    "build:watch": "npx tsc -w",
+    "start": "node ./dist/bin/www.js",
+    "start:watch": "npx nodemon ./dist/bin/www.js"
+  },
+  "_moduleAliases": {
+    "@app": "dist/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosleal-prd/typescript-simple-starter.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "TypeScript",
+    "Boilerplate"
+  ],
+  "author": "Marcos V. Leal <marcosleal.prd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosleal-prd/typescript-simple-starter/issues"
+  },
+  "homepage": "https://github.com/marcosleal-prd/typescript-simple-starter#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}

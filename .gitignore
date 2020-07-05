@@ -1,0 +1,49 @@
+# Saídas de Compilação
+/tmp
+/out-tsc
+/dist
+/logs
+
+# Webpack
+.webpack
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# NPM
+npm-debug.log
+
+# Dependencias
+/node_modules
+
+# IDEs e Editores
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Diversas (os)
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Só existe no caso do Bazel
+/bazel-out
