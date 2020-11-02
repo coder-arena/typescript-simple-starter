@@ -1,6 +1,7 @@
 # 👨🏻‍💻 TypeScript Simple Starter
 
 > Vamos aprender mais sobre TypeScript, Domain-Driven Design, Boas práticas, Tecnologia, Qualidade de Código, DevOps, Carreira, Dicas e muitos outros temas no site [Coder Arena](https://coderarena.com.br/).
+> 
 > **P.S**: Este é um projeto novo, mas pretendo postar conteúdo novo com a maior frequência possível 😉
 
 ## Sobre
